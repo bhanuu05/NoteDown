@@ -54,6 +54,8 @@ export function LoginForm({
     },
   });
 
+  
+
    const signIn = async () => {
     await authClient.signIn.social({
       provider: "google",
